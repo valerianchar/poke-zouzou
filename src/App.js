@@ -1,20 +1,27 @@
 import './App.css';
 
 //Atomes
-import Button from './components/atomes/Button/button';
-import Header from './components/header/Header';
+import Header from './components/organism/header/Header';
 
 
 
 
 function App() {
+
+  const composants = [
+
+    {
+      label: "Home"
+    },
+    {
+      label: "About"
+    }
+]
+
+
   return (
     <div className="App">
-      <Header/>
-      <body className='App-body'>
-        <div>
-        </div>
-      </body>
+      <Header comp={composants} headerTitle={'Application Name'}/>
       
     </div>
   );

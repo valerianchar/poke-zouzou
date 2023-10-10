@@ -8,3 +8,10 @@
     font-weight: bold;
     
 }
+
+
+.button:hover {
+    background: cyan;
+    opacity: 0.7;
+    color: white;
+}
